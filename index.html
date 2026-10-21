@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Imagen</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Seleccionar Imagen</h1>
+
+        <p>Seleccionar Imagen:</p>
+
+        <input type="file" id="archivo" accept="image/*">
+
+        <button onclick="mostrarArchivo()">Subir Archivo</button>
+
+        <div id="datos"></div>
+
+        <img id="imagen" alt="Imagen seleccionada">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
